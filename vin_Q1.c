@@ -9,7 +9,7 @@ struct std
     char std_city[50];
     int std_standard;
     char std_school[50];
-}
+};
 
 void main()
 {
@@ -33,10 +33,20 @@ void main()
         scanf("%d",&s[i].std_standard);
         printf("Enter School name :- ");
         scanf("%s",&s[i].std_school);
+        printf("\n");
     }
+    printf("\n\n");
     
     for(i=0;i<=2;i++)
     {
-       printf("ID")
+       printf("\n");
+       printf("ID :- %d\n",s[i].std_id);
+       printf("Name :- %s\n",s[i].std_name);
+       printf("Age :- %d\n",s[i].std_age);
+       printf("Course :- %s\n",s[i].std_course);
+       printf("City :- %s\n",s[i].std_city);
+       printf("Standard :- %d\n",s[i].std_standard);
+       printf("School name :- %s\n",s[i].std_school);
+       printf("\n");
     }
 }
